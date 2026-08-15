@@ -1,30 +1,27 @@
-# 🛡️ Aegis Scanner
+# 🛡️ Aegis Scanner - Advanced Vulnerability Scanner
 
-**Aegis** is a Python-based educational vulnerability scanning tool developed as a **5th semester (third-year) academic project**.  
-It demonstrates how traditional payload-based vulnerability testing can be **assisted by basic machine learning techniques** for anomaly detection.
+أداة تعليمية متقدمة لمسح الثغرات الأمنية (SQLi, XSS, LFI, RCE) باستخدام التعلم الآلي (Random Forest) والتشفير الهجين.
 
----
+## ✨ الميزات
+- 🔍 مسح شامل للثغرات الأمنية الشائعة.
+- 🤖 استخدام التعلم الآلي لتحسين دقة الاكتشاف.
+- 🔐 تشفير هجين للتقارير (AES-256 + RSA-2048).
+- 🖥️ واجهة رسومية سهلة الاستخدام.
 
-## ✨ Features
+## 📁 هيكلية المشروع
+- `src/`: يحتوي على الكود المصدري الرئيسي (`aegis-scanner.py`).
+- `docs/`: ملفات التوثيق والشرح الأكاديمي.
+- `requirements.txt`: ملف التبعيات.
 
-- 🔍 **Web Vulnerability Scanning** – SQLi, XSS, LFI, RCE
-- 🤖 **Machine Learning** – Random Forest with TF-IDF (85% accuracy)
-- 🔐 **Hybrid Encryption** – AES-256 + RSA-2048 for secure reports
-- 🌐 **Network Scanning** – Nmap integration (optional)
-- 📊 **PDF Reports** – Encrypted and exportable
-- 🖥️ **GUI Interface** – Tkinter-based professional UI
-
----
-
-## 🛠️ Installation
-
+## ⚙️ التثبيت
 ```bash
-# Clone the repository
-git clone https://github.com/your-username/aegis-scanner.git
-cd aegis-scanner
-
-# Install dependencies
 pip install -r requirements.txt
+```
 
-# Run the tool
-python aegis_scanner.py
+## 🚀 التشغيل
+```bash
+python src/aegis-scanner.py
+```
+
+---
+مشروع أكاديمي - المهندس أكرم الشرعبي © 2026
