@@ -53,7 +53,7 @@ jobs:
 
       - name: Upload current-file report
         if: always()
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: gitleaks-current-report
           path: gitleaks-current.sarif
@@ -95,7 +95,7 @@ jobs:
 
       - name: Upload history report
         if: always()
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: gitleaks-history-report
           path: gitleaks-history.sarif
