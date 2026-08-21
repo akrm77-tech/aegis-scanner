@@ -4,3 +4,15 @@ __pycache__/
 venv/
 *.log
 *.pkl
+*.pdf
+*.aegis
+training_data.csv
+*.pkl
+*.html
+*.csv
+*.xlsx
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*.swo
