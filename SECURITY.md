@@ -1,5 +1,15 @@
 # Security Policy
 
-Use this educational scanner only against systems for which you have explicit authorization. Do not scan third-party targets, bypass controls, or store collected data without permission.
+Use this tool only with systems you have explicit permission to test. Do not scan external systems without prior consent.
 
-Do not commit credentials, generated models, scan reports, or target data. Report security issues privately to the repository owner through GitHub.
+Do not upload any sensitive data such as:
+- Credentials
+- Reports
+- Results
+- Generated files
+
+Report any vulnerabilities or security issues to the repository owner via GitHub.
+
+---
+
+**Report**: Contact via [Issues](https://github.com/akrm77-tech/falcon-scanner/issues)
