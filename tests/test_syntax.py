@@ -5,7 +5,7 @@ import unittest
 
 class SourceSyntaxTests(unittest.TestCase):
     def test_main_source_compiles(self):
-        source = Path(__file__).parents[1] / "src" / "aegis-scanner.py"
+        source = Path(__file__).parents[1] / "src" / "falcon-scanner.py"
         py_compile.compile(str(source), doraise=True)
 
 
